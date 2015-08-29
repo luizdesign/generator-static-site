@@ -1,0 +1,22 @@
+{
+  "name": "generator-static-site",
+  "version": "0.0.1",
+  "description": "Scaffolding for static sites",
+  "main": "app/index.js",
+  "keywords": [
+    "static",
+    "node",
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/luizdesign/generator-static-site",
+  "bugs": "https://github.com/luizdesign/generator-static-site/issues",
+  "author": "Luiz Kota <luiz.zk@gmail.com> (https://github.com/luizdesign)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luizdesign/generator-static-site.git"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.20.1"
+  }
+}

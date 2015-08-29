@@ -1,0 +1,16 @@
+{
+  "name": "static-site",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "startNodemon": "nodemon app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "shell-arguments": "^1.0.4"
+  }
+}
