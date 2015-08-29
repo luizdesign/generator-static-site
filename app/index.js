@@ -42,8 +42,8 @@ module.exports = generators.Base.extend({
         this.template('app.js', 'app.js');
         this.template('README.md', 'README.md');
         this.template('package.json', 'package.json');
-        this.template('.bowerrc', '.bowerrc');
-        this.template('.gitignore', '.gitignore');
+        this.template('bowerrc', '.bowerrc');
+        this.template('gitignore', '.gitignore');
     },
     install: function() {
         this.installDependencies({
