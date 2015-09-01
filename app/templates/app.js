@@ -8,7 +8,7 @@ global.CONFIG = require("./config");
 require("./routes")(app);
 
 app.use(
-    "/public",
+    "/static",
     express.static(
         path.join(__dirname, "public")
     )

@@ -2,6 +2,6 @@ var controllers = require("./../controllers");
 
 module.exports = function(app) {
     app
-        .route("/*")
+        .route("/site/*")
         .get(controllers.renderTemplate);
 };
